@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curitba PR</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #1a1a2e;
+        }
+        header h1 {
+            margin-top: 20px;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .bandeira {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #1a1a2e;
+            color: #03fc73;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+       img {
+        margin-top: 25px;
+       }
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: #03fc73; text-align: center;">Cidade de Curitiba no Paraná</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="pontos_turisticos.html">Pontos turísticos</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="bandeira">
+            <img src="bandeira_curitiba.jfif">
+            <div class="infos">
+                <p><strong>Fundação</strong> <i>de março de 1693</i></p>
+                <p><strong>Polulação(IBGE 2002)</strong> <i>1.773.718 hab</i></p>
+                <p><strong>Prato típico</strong> <i>Carne de onça</i></p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                História
+            </h1>
+            <p>Curitiba, a capital do estado do Paraná, no Brasil, tem uma rica e fascinante história que remonta ao século XVII. Fundada em 29 de março de 1693, a cidade começou como um pequeno povoado de colonos portugueses que vieram para a região em busca de novas oportunidades. Inicialmente conhecida como um local de passagem e comércio, Curitiba foi estabelecida como um núcleo urbano em meio à vasta mata atlântica que cobria a região.</p>
+            <p>Durante o período colonial, Curitiba era um importante centro de comércio para as comunidades ao redor, sendo um ponto de conexão vital entre o interior do Brasil e o litoral. A cidade prosperou como um centro de produção agrícola e pecuária, especialmente no cultivo de erva-mate, uma planta fundamental na economia local. A influência da colonização portuguesa, juntamente com a chegada de imigrantes europeus, moldou o caráter cultural e econômico da cidade.</p>
+            <p>No século XIX, Curitiba começou a se modernizar com a construção de infraestrutura importante, como a primeira estrada de ferro do estado, inaugurada em 1885. Essa ferrovia não apenas facilitou o transporte de mercadorias e pessoas, mas também ajudou a integrar a cidade ao restante do Brasil. A época também trouxe um influxo significativo de imigrantes, incluindo alemães, italianos e poloneses, que contribuíram para a diversidade cultural e o desenvolvimento econômico da cidade.</p>
+            <p>O século XX marcou um período de rápida transformação para Curitiba. A cidade implementou uma série de reformas urbanas e políticas inovadoras, particularmente sob a liderança do então prefeito Jaime Lerner, que se destacou por sua abordagem visionária em planejamento urbano e transporte. A criação do sistema de ônibus expressos, o famoso "Ligeirinho", e a transformação dos espaços urbanos foram pioneiros e serviram como modelo para outras cidades ao redor do mundo.</p>
+            <p>Nos anos 80 e 90, Curitiba consolidou sua reputação como um modelo de cidade sustentável e inovadora. O planejamento urbano integrado, que incluiu áreas verdes e a promoção de transporte público eficiente, ajudou a cidade a se destacar internacionalmente. Curitiba recebeu reconhecimento por seus esforços em sustentabilidade e qualidade de vida, atraindo visitantes e estudiosos interessados em entender o sucesso de suas políticas urbanas.</p>
+            <p>Hoje, Curitiba é conhecida por sua rica herança cultural, suas políticas inovadoras e sua qualidade de vida. A cidade continua a evoluir e a se adaptar às mudanças, mantendo ao mesmo tempo um forte compromisso com a preservação de sua história e cultura. Com uma população diversificada e uma infraestrutura moderna, Curitiba permanece como um exemplo notável de desenvolvimento urbano bem-sucedido no Brasil.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h3>Desenvolvido para fins educacionais</h3>
+    </footer>
+    </div>
+</body>
+
+</html>

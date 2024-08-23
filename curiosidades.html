@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo da Vinci</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        header {
+            background-color: #1a1a2e;
+            
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #1a1a2e;
+            color: #03fc73;
+            text-align: center;
+        }
+        section h1 {
+            font-size: 1.8em;
+            text-align: center;
+        }
+        section img {
+            max-width: 20rem;
+            margin: 2rem;
+        }
+       section p {
+        margin-right: 25em;
+       }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: #03fc73; text-align: center;">Cidade de Curitiba no Paraná</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="pontos_turisticos.html">Pontos turísticos</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        
+        <section class="principal">
+            <h1>
+                Curiosidades sobre Curitiba
+            </h1>
+            <br>
+            <h2>1. O significado de Curitiba</h2>
+            <p>O nome “Curitiba” vem da expressão indígena “kur yt iwa”, que significa “lugar cheio de pinheiros” ou “terra de muitos pinhões”.</p>
+            <img src="araucaria.jfif">
+            <br>
+            <h2>2. Curitiba já foi capital do Brasil</h2>
+            <p>Em 1969, Curitiba foi a capital do Brasil por apenas três dias, uma manobra política durante a ditadura militar.</p>
+            <br>
+            <h2>3. O primeiro calçadão do Brasil</h2>
+            <p>A Rua XV de Novembro, um dos lugares mais movimentados da cidade, foi o primeiro calçadão do Brasil</p>
+            <img src="calcadao.jfif">
+            <br>
+            <h2>4. A universidade mais antiga</h2>
+            <p>A Universidade Federal do Paraná (UFPR), fundada em 1912, é a mais antiga do Brasil</p>
+            <img src="universidade.jfif">
+            <br>
+            <h2>5. A capital da cerveja artesanal</h2>
+            <p>Embora não tenha o maior número de microcervejarias, Curitiba é reconhecida como a capital da cerveja artesanal no Brasil, abrigando as marcas mais premiadas.</p>
+            <br>
+            <h2>6. Um bairro inteiro italiano</h2>
+            <p>Curitiba abriga um bairro totalmente dedicado à gastronomia italiana, em Santa Felicidade você encontra grandes restaurantes, cantinas e vinícolas.</p>
+            <br>
+            <h2>7. Carne de Onça?</h2>
+            <p>Um prato típico curioso de Curitiba é a 'Carne de Onça', que, apesar do nome, é feito com carne bovina moída crua, temperada e servida sobre um pão sírio. A tradicionalíssima Mercearia Fantinato já recebeu diversos prêmios pelo prato.</p>
+            <img src="carne_onca.webp">
+            <br>
+            <h2>8. Personagens das ruas</h2>
+            <p>A cidade abriga emblemáticos como Inri Cristo, Oil Man, Plá, Gilda, Efigênia Rolim, e é também a terra de Dalton Trevisan e Paulo Leminski.</p>
+            <br>
+            <h2>9. Cidade Modelo</h2>
+            <p>Curitiba é conhecida como a “Cidade Modelo” do Brasil, devido a suas iniciativas pioneiras em urbanismo e meio ambiente, incluindo o sistema de transporte público integrado, o BRT (Bus Rapid Transit).</p>
+            <img src="cidade_modelo.jfif">
+            <br>
+            <h2>10. Festival de Teatro de Curitiba</h2>
+            <p>Curitiba sedia o maior festival de teatro do Brasil. O Festival de Teatro de Curitiba, realizado anualmente, atrai artistas e espectadores de todo o país.</p>
+            <br>
+            <h2>11. Sustentabilidade</h2>
+            <p>A cidade é um exemplo em sustentabilidade, sendo a primeira do país a implementar um sistema de coleta seletiva de lixo em 1989.</p>
+            <img src="sustentabilidade.jfif">
+            <br>
+            <h2>12. O Parque Barigui</h2>
+            <p>É um dos maiores e mais frequentados parques da cidade, onde curitibanos praticam esportes, realizam piqueniques e se encontram para momentos de lazer.</p>
+            <img src="parque_barigui.jpg">
+            <br>
+            <h2>13. Clima</h2>
+            <p>Curitiba possui um clima peculiar, com as quatro estações do ano bem definidas. É famosa pelo ditado “Curitiba não nos poupa, ontem tomei sorvete, hoje tomo sopa”.</p>
+            <br>
+            <h2>14. A Linha Turismo</h2>
+            <p>É uma linha de ônibus especial que circula pelos principais pontos turísticos de Curitiba, oferecendo uma maneira conveniente para visitantes explorarem a cidade.</p>
+            <img src="onibus_turismo.jpg">
+            <br>
+            <h2>15. Redução de danos</h2>
+            <p>Curitiba é pioneira na política de redução de danos, com programas voltados para a saúde mental e apoio a populações em situação de vulnerabilidade.</p>
+            <br>
+            <h2>A Torre Panorâmica</h2>
+            <p>É uma torre de telefonia que oferece uma vista de 360 graus da cidade, é o único observatório do Brasil aberto à visitação pública, proporcionando uma perspectiva única da capital paranaense.</p>
+            <img src="torre_panoramica.jfif">
+        </section>
+    </div>
+    <footer class="container">
+        <h3>Desenvolvido para fins educacionais</h3>
+    </footer>
+</body>
+
+</html>

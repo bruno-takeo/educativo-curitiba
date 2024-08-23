@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrações</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #1a1a2e;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            /*centraliza o menu*/
+            gap: 20px;
+        }
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #1a1a2e;
+            color: #03fc73;
+            text-align: center;
+
+        }
+        .card {
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        .img {
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .img img {
+            width: 190px;
+            height: 150px;
+        }
+
+        .img {
+            max-width: 28rem;
+            margin: 2rem;
+        }
+
+        .img p {
+            max-width: 190px; /* Ajusta o texto para ter a mesma largura da imagem */
+            margin: 0;
+            text-align: left;
+        }
+        .img a {
+            color: black; /* Cor do link */
+            text-decoration: none; /* Remove sublinhado */
+            border: none;
+            padding: 0;
+        }
+
+        .img a:hover {
+            color: #506E6A; /* Cor ao passar o mouse */
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: #03fc73; text-align: center;">Cidade de Curitiba no Paraná</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="pontos_turisticos.html">Pontos turísticos</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        
+        <section class=" principal">
+            <h1 style="font-size: 2.0em; text-align: center;">
+                Pontos Turísticos
+            </h1>
+            <div class="card">
+                <div class="img">
+                    <img src="jardim_botanico.jfif">
+
+                    <div>
+                        <h2><a href="https://www.curitiba.pr.gov.br/servicos/jardim-botanico-de-curitiba/831" target="_blank">Jardim Botânico</a></h2>
+                        <p>O jardim botânico é um local dedicado as plantas que faz à coleção, cultivo e, exposição de uma ampla diversidade de plantas, identificadas de acordo com o nome botânico.</p>
+
+                    </div>
+                </div>
+
+                <div class="img">
+                    <img src="museu_olho.jpeg">
+
+                    <div class="">
+                        <h2><a href="https://www.museuoscarniemeyer.org.br/" target="_blank">Museu do Olho</a></h2>
+                        <p>Um museu de arte oficialmente conhecido como Museu Oscar Niemeyer (MON). É famoso por sua arquitetura incomum, projetada pelo renomado arquiteto Oscar Niemeyer.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="opera_arame.jpg">
+
+                    <div class="">
+                        <h2><a href="https://guia.curitiba.pr.gov.br/evento/opera-de-arame--pedreira-paulo-leminski/1672" target="_blank">Ópera de Arame</a></h2>
+                        <p>É um teatro, seu nome deriva do estilo construtivo, feito de tubos de aço e estruturas metálicas, coberto com placas transparentes de policarbonato, lembrando a fragilidade de uma construção em arame.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="mercado_municipal.jpg">
+
+                    <div class="">
+                        <h2><a href="https://www.mercadomunicipaldecuritiba.com.br/comerciante/" target="_blank">Mercado Municipal</a></h2>
+                        <p>Fundado em 02 de agosto de 1958, é o mais tradicional endereço para compras de Curitiba. Com bancas de hortigranjeiros, lojas de delicatéssens e setor orgânico.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="passeio_publico.webp">
+
+                    <div class="">
+                        <h2><a href="https://guia.curitiba.pr.gov.br/evento/passeio-publico-municipal-de-curitiba/1705" target="_blank">Passeio Público</a></h2>
+                        <p>É o parque mais antigo do município de Curitiba. Inaugurado em 1886, está localizado no Centro da cidade.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="largo_ordem.jpg">
+
+                    <div class="">
+                        <h2><a href="https://www.curitiba.pr.gov.br/servicos/feira-do-largo-da-ordem/390" target="_blank">Largo da Ordem</a></h2>
+                        <p>A Feira de Arte e Artesanato Garibaldi, conhecida como Feira do Largo da Ordem, é um evento comercial, cultural e gastronômico aberto que ocorre todos os domingos.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="bosque_alemao.jfif">
+
+                    <div class="">
+                        <h2><a href="https://www.curitiba.pr.gov.br/locais/bosque-municipal-alemao/1524" target="_blank">Bosque Alemão</a></h2>
+                        <p>Parque com 38.000 m², ideal para caminhadas leves e vistas da cidade e da Serra do Mar. Oferece uma bela paisagem e abriga uma biblioteca infantil, inaugurada em 1996.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="zoologico.jpeg">
+
+                    <div class="">
+                        <h2 style="text-align: center;"><a href="https://www.curitiba.pr.gov.br/locais/zoologico-municipal-de-curitiba/1572" target="_blank">Zoológico</a></h2>
+                        <p>Está situado dentro do Parque Regional do Iguaçu, o maior parque urbano do país, com 8 milhões de metros quadrados e considerado um santuário ecológico para muitas espécies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container">
+        <h3>Desenvolvido para fins educacionais</h3>
+    </footer>
+    </div>
+</body>
+
+</html>
